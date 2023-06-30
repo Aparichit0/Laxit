@@ -59,11 +59,6 @@ blockquote{
     font-weight: 500;
     text-shadow: 1px 1px 3px black;
 }
-blockquote>p{
-    /* keep text exactly as formatted (causing issues
-    with image magic numbers on parent container*/
-    white-space: pre-wrap;
-}
 
 #wish{
     font-size: 2.5rem;
