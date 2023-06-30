@@ -1,5 +1,6 @@
 /* css reset */
-*, html {
+*,
+html {
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -10,13 +11,15 @@
 }
 
 /* flexboxes */
-.card, main, #profile{
+.card,
+main,
+#profile {
     display: flex;
     flex-direction: column;
 }
 
 /* use main as body */
-main{
+main {
     width: 100vw;
     height: 100vh;
     background-image: url(./resources/ivana-cajina-HDd-NQ_AMNQ-unsplash.jpg);
@@ -26,7 +29,7 @@ main{
     justify-content: center;
 }
 
-.card{
+.card {
     flex-direction: column;
     background-color: white;
     padding: 2em;
@@ -40,7 +43,7 @@ main{
 
 }
 
-#profile{
+#profile {
     width: 60vmin;
     height: 60vmin;
     background-image: url(./resources/profile-frame.gif), url(./resources/Round\ Photo_Jun302023_173936.png);
@@ -52,7 +55,7 @@ main{
 }
 
 /* quote */
-blockquote{
+blockquote {
     font-family: comfortaa, meslo, system-ui, -apple-system;
     font-size: 2rem;
     color: whitesmoke;
@@ -60,22 +63,23 @@ blockquote{
     text-shadow: 1px 1px 3px black;
 }
 
-#wish{
+#wish {
     font-size: 2.5rem;
     font-family: norse;
 }
 
 /* import fonts */
-@font-face{
+@font-face {
     font-family: meslo;
-    src:url(./resources/MesloLGS\ NF\ Regular.ttf)
-}
-@font-face{
-    font-family: comfortaa;
-    src:url(./resources/Comfortaa-VariableFont_wght.ttf)
-}
-@font-face{
-    font-family: norse;
-    src:url(./resources/Norse-Bold.otf)
+    src: url(./resources/MesloLGS\ NF\ Regular.ttf)
 }
 
+@font-face {
+    font-family: comfortaa;
+    src: url(./resources/Comfortaa-VariableFont_wght.ttf)
+}
+
+@font-face {
+    font-family: norse;
+    src: url(./resources/Norse-Bold.otf)
+}
