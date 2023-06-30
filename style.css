@@ -8,8 +8,9 @@
 }
 
 /* flexboxes */
-.card{
+.card, main{
     display: flex;
+    flex-direction: column;
 }
 
 main{
@@ -18,6 +19,8 @@ main{
     background-image: url(./resources/ivana-cajina-HDd-NQ_AMNQ-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
 }
 
 .card{
@@ -26,4 +29,16 @@ main{
     padding: 2em;
     margin: 2em;
     border-radius: 1rem;
+    background-color: transparent;
+    align-items: center;
+    min-height: 90vh;
+    gap: 1em;
+}
+
+.profile{
+    width: 5rem;
+    height: 5rem;
+    padding: 1em;
+    /* border: solid white .5rem; */
+    border-radius: 50%;
 }
